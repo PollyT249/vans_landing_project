@@ -27,7 +27,7 @@ body {
 
   @font-face {
     font-family: "rubik";
-    src: url("/fonts/rubik-glitch.woff2") format("woff2");
+    src: url("/fonts/rubik-dirt.woff2") format("woff2");
   }
 }
 
@@ -56,13 +56,13 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
-  .special-font {
+  .special-font b {
     font-family: "rubik";
     font-feature-settings: "ss01" on;
   }
 
   .hero-heading {
-    @apply uppercase font-rubik font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
+    @apply uppercase font-rubik font-black text-4xl sm:right-10 sm:text-6xl md:text-8xl lg:text-[8rem];
   }
 
   .about-subtext {

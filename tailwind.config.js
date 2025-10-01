@@ -4,25 +4,25 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ["rubik-glitch", "sans-serif"],
+        rubik: ["rubik", "sans-serif"],
         general: ["general", "sans-serif"],
         "space-mono-medium": ["space-mono-medium", "sans-serif"],
         "space-mono-regular": ["space-mono-regular", "sans-serif"],
       },
       colors: {
-        blue: {
-          50: "#DFDFF0",
-          75: "#dfdff2",
-          100: "#F0F2FA",
-          200: "#010101",
-          300: "#4FB7DD",
+        green: {
+          50: "#d9e2a8",
+          75: "#d8f8b7",
+          100: "#dbe9b7",
+          200: "#b1bd5d",
+          300: "#2e5a1c",
         },
         violet: {
-          300: "#5724ff",
+          300: "#ffebbc",
         },
-        yellow: {
-          100: "#8e983f",
-          300: "#edff66",
+        brown: {
+          100: "#c7b198",
+          300: "#535238",
         },
       },
     },
