@@ -11,14 +11,14 @@ export default {
       },
       colors: {
         green: {
-          50: "#d9e2a8",
-          75: "#d8f8b7",
-          100: "#dbe9b7",
+          50: "#e9eab4",
+          75: "#d6d88b",
+          100: "#b4bb72",
           200: "#b1bd5d",
           300: "#2e5a1c",
         },
         violet: {
-          300: "#ffebbc",
+          300: "#a18796",
         },
         brown: {
           100: "#c7b198",

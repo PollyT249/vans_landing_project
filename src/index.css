@@ -5,7 +5,7 @@
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background-color: #dfdff0;
+  background-color: #99b27f;
   font-family: "general";
 }
 
@@ -66,7 +66,7 @@ body {
   }
 
   .about-subtext {
-    @apply absolute bottom-[-80dvh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center font-space-mono-medium text-lg md:max-w-[34rem];
+    @apply absolute bottom-[-92dvh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center font-space-mono-medium text-xl md:max-w-[38rem];
   }
 
   .about-image {
@@ -74,7 +74,7 @@ body {
   }
 
   .animated-title {
-    @apply flex flex-col gap-1 text-7xl uppercase leading-[.8] text-white sm:px-32 md:text-[6rem];
+    @apply flex flex-col gap-1 text-7xl uppercase leading-[.8] text-white sm:px-32 md:text-[6.5rem];
   }
 
   .animated-word {
