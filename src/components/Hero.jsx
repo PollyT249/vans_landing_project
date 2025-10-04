@@ -135,13 +135,19 @@ const Hero = () => {
             onLoadedData={handleVideoLoad}
           />
         </div>
-        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-green-100">
+        <h1
+          className="special-font hero-heading absolute bottom-5 right-5 z-40 text-green-100"
+          style={{ textShadow: " -6px -6px 6px rgba(0,0,0,0.6)" }}
+        >
           Vans Style
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
-            <h1 className="special-font hero-heading text-violet-300">
+            <h1
+              className="special-font hero-heading text-violet-300"
+              style={{ textShadow: " -6px -6px 6px rgba(0,0,0,0.6)" }}
+            >
               redefine
             </h1>
 
@@ -153,13 +159,13 @@ const Hero = () => {
               id="see-more"
               title="See More"
               leftIcon={<TiLocationArrow />}
-              containerClass="!bg-brown-300 flex-center gap-1"
+              containerClass="!bg-green-400 flex-center gap-1"
             />
           </div>
         </div>
       </div>
 
-      <h1 className="special-font hero-heading absolute bottom-5 right-5 text-[#12110c]">
+      <h1 className="special-font hero-heading absolute bottom-5 right-5 text-brown-400">
         Vans Style
       </h1>
     </div>
