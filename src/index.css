@@ -33,7 +33,7 @@ body {
 
 @layer utilities {
   .border-hsla {
-    @apply border border-white/20;
+    @apply border border-green-200/20;
   }
 
   .nav-hover-btn {
@@ -265,32 +265,32 @@ body {
   }
 }
 
-/* @keyframes slideIn {
-  from {
+@keyframes slide-in {
+  0% {
     opacity: 0;
     transform: translateX(30px);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
 
-@keyframes slideOut {
-  from {
+@keyframes slide-out {
+  0% {
     opacity: 1;
     transform: translateX(0);
   }
-  to {
+  100% {
     opacity: 0;
     transform: translateX(30px);
   }
 }
 
-.animate-slideIn {
-  animation: slideIn 0.4s ease-out forwards;
+.animate-slide-in {
+  animation: slide-in 0.4s ease-out forwards;
 }
 
-.animate-slideOut {
-  animation: slideOut 0.4s ease-in forwards;
-} */
+.animate-slide-out {
+  animation: slide-out 0.4s ease-in forwards;
+}

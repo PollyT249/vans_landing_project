@@ -116,9 +116,8 @@ const Navbar = () => {
 
             <PopUpMessage
               message="🎵 for vibe ☝"
-              delay={3000} // show after 2s
-              duration={5000} // stay for 3s
-              position="right" // align right
+              delay={3000}
+              duration={5000}
             />
           </div>
         </nav>
