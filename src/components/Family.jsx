@@ -101,10 +101,10 @@ export const BentoCard = ({ src, title, description, seeMore }) => {
 };
 
 const Family = () => (
-  <section className="bg-brown-400 pb-52">
+  <section id="family" className="bg-brown-400 pb-52">
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
-        <p className="font-space-mono-medium text-xl text-green-300">
+        <p className="font-space-mono-medium text-3xl text-green-300">
           Into the Vans Family
         </p>
         <p className="max-w-md font-space-mono-medium text-lg text-green-50 opacity-50">
@@ -117,8 +117,8 @@ const Family = () => (
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
           src="videos/family-1.mp4"
-          title={<>free</>}
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          title={<>free spirit</>}
+          description="Step into a culture where self-expression knows no limits — Vans celebrates your freedom to move, create, and live your own way."
           seeMore
         />
       </BentoTilt>
@@ -127,8 +127,8 @@ const Family = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/family-2.mp4"
-            title={<>bright</>}
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+            title={<>brightness</>}
+            description="Bold colors, fresh designs, and fearless energy — Vans lights up your world with creativity that never fades."
             seeMore
           />
         </BentoTilt>
@@ -136,8 +136,8 @@ const Family = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
             src="videos/family-3.mp4"
-            title={<>adventurous</>}
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            title={<>adventure</>}
+            description="From city streets to mountain peaks, Vans is your companion on every journey, built for exploration without boundaries."
             seeMore
           />
         </BentoTilt>
@@ -145,8 +145,8 @@ const Family = () => (
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="videos/family-4.mp4"
-            title={<>creative</>}
-            description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+            title={<>creativity</>}
+            description="Vans thrives on imagination — join a community where style, art, and innovation collide into something truly your own."
             seeMore
           />
         </BentoTilt>

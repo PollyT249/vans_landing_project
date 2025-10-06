@@ -264,33 +264,3 @@ body {
     opacity: 0.8;
   }
 }
-
-@keyframes slide-in {
-  0% {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slide-out {
-  0% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  100% {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-}
-
-.animate-slide-in {
-  animation: slide-in 0.4s ease-out forwards;
-}
-
-.animate-slide-out {
-  animation: slide-out 0.4s ease-in forwards;
-}
