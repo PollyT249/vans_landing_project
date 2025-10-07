@@ -7,14 +7,14 @@ This version reimagines the layout and visuals as a Vans-themed concept, featuri
 
 🚀 Features
 
-👉 Scroll-Based Animations: Dynamic animations triggered by scrolling for a more engaging user experience.
-👉 Clip Path Shaped Animations: Unique geometric transitions using CSS clip-paths to create visually stunning effects.
-👉 3D Hover Effects: Interactive 3D transformations that respond to user interactions for a modern feel.
-👉 Video Transitions: Seamlessly integrated video elements to enhance storytelling and flow.
-👉 Smooth UI/UX: Polished interfaces with buttery-smooth interactions for an intuitive user journey.
-👉 Completely Responsive: Flawless adaptation across all devices, ensuring a consistent experience.
-👉 Reusable Architecture: Clean, modular React structure for easy scalability and maintainability.
-👉 Custom Pop-Up Message: GSAP-powered pop-up under the music bar for added interactivity.
+- Scroll-Based Animations: Dynamic animations triggered by scrolling for a more engaging user experience.
+- Clip Path Shaped Animations: Unique geometric transitions using CSS clip-paths to create visually stunning effects.
+- 3D Hover Effects: Interactive 3D transformations that respond to user interactions for a modern feel.
+- Video Transitions: Seamlessly integrated video elements to enhance storytelling and flow.
+- Smooth UI/UX: Polished interfaces with buttery-smooth interactions for an intuitive user journey.
+- Completely Responsive: Flawless adaptation across all devices, ensuring a consistent experience.
+- Reusable Architecture: Clean, modular React structure for easy scalability and maintainability.
+- Custom Pop-Up Message: GSAP-powered pop-up under the music bar for added interactivity.
 
 🧠 What I Learned
 
