@@ -92,6 +92,7 @@ const Story = () => {
             <Button
               id="realm-btn"
               title="discover"
+              href="#contact"
               leftIcon={<TiLocationArrow />}
               containerClass="mt-5 !bg-green-300 flex-center gap-1"
             />

@@ -104,7 +104,7 @@ const Family = () => (
   <section id="family" className="bg-brown-400 pb-52">
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
-        <p className="font-space-mono-medium text-3xl text-green-300">
+        <p className="font-space-mono-medium text-4xl text-green-300">
           Into the Vans Family
         </p>
         <p className="max-w-md font-space-mono-medium text-lg text-green-50 opacity-50">
