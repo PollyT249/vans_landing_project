@@ -108,6 +108,7 @@ const Hero = () => {
                 src={getVideoSrc(upcomingVideoIndex)}
                 loop
                 muted
+                preload="auto"
                 id="current-video"
                 className="size-64 origin-center scale-150 object-cover object-center"
                 onLoadedData={handleVideoLoad}
